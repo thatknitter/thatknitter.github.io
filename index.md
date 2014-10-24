@@ -2,9 +2,9 @@
 title: hello world
 layout: default
 ---
-#Hello Knitters. [Let's yarn.](../blog.html)
+#Hello Knitters. [Let's yarn.](/blog.html)
 
-![Me, with really short hair](../images/temple-square-348.jpg =150x200)
+![Me, with really short hair](/images/temple-square-348.jpg =150x200)
 
 You have reached the tech blog of Kimberly Lewis, known online as "thestashattacked," "thatknitter," and occassionally "girl_with_all_the_yarn." If you want to know more about me, keep reading. If you want to see some of the cool stuff I've made, [click here,](../knitting.html) and if you'd like to see the websites I've built, check out [my portfolio.](../portfolio.html)
 
