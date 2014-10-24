@@ -1,5 +1,5 @@
 ---
-title: hello world
+title: Blog
 layout: default
 ---
 

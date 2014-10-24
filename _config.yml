@@ -1,8 +1,9 @@
 # Site settings
-title: Kimberly Lewis' Tech Blog
-email: kbleiws.flt@gmail.com
+title: Let's Yarn
+email: kblewis.flt@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Kimberly Lewis is out of her mind. Sorry.
+  Tech blog of Kimberly Lewis. Also a place where you can see the knitting patterns I've designed, my resume, and a little bit about me. 
+  Also, there are cats.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://thatknitter.github.io" # the base hostname & protocol for your site
 twitter_username: stashattack

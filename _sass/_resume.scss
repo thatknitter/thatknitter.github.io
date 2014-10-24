@@ -1,0 +1,36 @@
+#resume {
+        section {
+                clear: both;
+        }
+        h1 {
+                border-bottom: 1px solid black;
+        }
+        section.preamble a {
+                display: block;
+                float: right;
+                clear: right;
+        }
+        section.education {
+                //& > ul will translate to section.education > ul
+                h2, & > ul {
+                        display: inline-block;
+                }
+                h2 {
+                        width: 20%;
+                        float: left;
+                }
+                & > ul {
+                        width: 80%;
+                        margin: 0;
+                        list-style-type: none;
+                }
+        }
+        section.experience {
+                .begin:after {
+                        content: ' - ';
+                }
+                .begin, .end {
+                        float: right;
+                }
+        }
+}

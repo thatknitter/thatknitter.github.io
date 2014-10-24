@@ -1,5 +1,5 @@
 ---
-title: hello world
+title: Cats!
 layout: default
 ---
 
