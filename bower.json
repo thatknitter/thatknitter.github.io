@@ -1,0 +1,11 @@
+{
+  "name": "thatknitter.github.io",
+  "version": "1.0.0",
+  "homepage": "https://github.com/thatknitter/thatknitter.github.io",
+  "authors": [
+    "thatknitter <kblewis.flt@gmail.com>"
+  ],
+  "description": "thatknitter portfolio site",
+  "main": "index.html",
+  "license": "MIT"
+}

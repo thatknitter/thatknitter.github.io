@@ -1,23 +1,29 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-US" ng-app="portApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kimberly Lewis: Web Developer</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+  </head>
+  <body>
+    <div class="header">
+      <a href="/">Home</a>
+      <a href="/#/about">About Me</a>
+      <a href="/#/work">Things I've Made</a>
+      <a href="/#/resume">Resume</a>
+      <a href="/#/contact">Contact</a>
+    </div>
+    <div class="container">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+        <div ng-view></div>
+     </div>
+     <div class="footer">
+       
+     </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+  </body>
+</html>
