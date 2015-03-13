@@ -3,6 +3,22 @@ body {
   background-image: url(../images/church.png);
 }
 
-header {
-  
+.header {
+  background-color: #A0D9E5;
+  height: 100px;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+.header ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 1em;
+  font-size: 18pt;
+}
+
+.container {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  margin-top: 20px;
 }
