@@ -34,3 +34,14 @@ body {
   list-style-type: none;
   font-size: 18pt;
 }
+
+.mainpic {
+  margin-bottom: 10px;
+  margin-top: -200px;
+}
+
+.tagline {
+  text-align: right;
+  margin-top: 200px;
+  margin-right: 350px;
+}
