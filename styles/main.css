@@ -36,12 +36,33 @@ body {
 }
 
 .mainpic {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: -200px;
+  margin-left: 20px;
 }
 
 .tagline {
   text-align: right;
   margin-top: 200px;
   margin-right: 350px;
+}
+
+.aboutbox {
+  margin-top: 30px;
+}
+
+.aboutpic {
+  float: left;
+  margin: 20px;
+  margin-top: 5px;
+}
+
+.pdf {
+  display: block;
+  width: 850px;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
